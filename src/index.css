@@ -1,4 +1,16 @@
-.airbnb--logo {
+body{
+  display: flex;
+  place-content: center;
+  margin: 0;
+}
+
+.container {
+  width: 550px;
+  padding: 15px;
+  background-color: blue;
+}
+
+nav {
   /* width: 550px;
 height: 70px; */
 
@@ -7,7 +19,41 @@ height: 70px; */
 
 }
 
-.airbnb--logo>img{
+nav>img{
   width: 10%;
+  padding: 20px;
   /* width: fit-content; */
+}
+
+.hero--{
+  display: grid;
+  padding: 20px;
+  background: blueviolet;
+}
+
+.hero-->img{
+  width: 395.91px;
+height: 232px;
+  justify-self: center;
+  background-color: chartreuse;
+}
+
+.hero-->h1{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+
+background: burlywood;
+}
+
+.hero-->p{
+  width: 320px;
+height: 56px;
+  font-family: 'Poppins';
+/* font-style: normal; */
+font-weight: 600;
+font-size: 16px;
+  background-color:brown ;
 }
