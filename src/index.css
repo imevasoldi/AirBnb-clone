@@ -1,0 +1,13 @@
+.airbnb--logo {
+  /* width: 550px;
+height: 70px; */
+
+  background: aquamarine;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.airbnb--logo>img{
+  width: 10%;
+  /* width: fit-content; */
+}
