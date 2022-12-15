@@ -10,6 +10,10 @@ body{
   background-color: blue;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 nav {
   /* width: 550px;
 height: 70px; */
@@ -57,3 +61,35 @@ font-weight: 600;
 font-size: 16px;
   background-color:brown ;
 }
+
+.card {
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+  background-color: darkgreen;
+  font-size: 12px;
+}
+
+.card>img{
+  width: 176px;
+height: 235px;
+  border-radius: 9px;
+}
+
+.stats--group{
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  
+  background-color: gold;
+}
+
+.rating{
+  font-size: 12px;
+}
+
+.views{
+  color: #918E9B
+}
+
+
