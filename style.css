@@ -8,14 +8,14 @@
 } */
 
 body{
-  display: grid;
+  display: flex;
   /* justify-content: center;
   align-items: center; */
-  place-content: center;
+  /* place-content: center; */
   /* place-items: center; */
   /* place-content: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   /* margin: 0; */
   background-color: crimson;
   min-height: 100vh;
