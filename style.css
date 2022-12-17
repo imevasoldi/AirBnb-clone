@@ -1,12 +1,30 @@
+:root{
+  /* display: flex; */
+  background-color: rgb(226, 131, 43);
+}
+
+/* #root{
+  margin: 0 auto;
+} */
+
 body{
-  display: flex;
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
   place-content: center;
-  margin: 0;
+  /* place-items: center; */
+  /* place-content: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin: 0; */
+  background-color: crimson;
+  min-height: 100vh;
 }
 
 .container {
   width: 550px;
-  padding: 15px;
+  /* margin: 0 auto; */
+  /* padding: 15px; */ 
   background-color: blue;
 }
 
