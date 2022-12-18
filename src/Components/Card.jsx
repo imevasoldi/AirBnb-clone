@@ -1,14 +1,14 @@
-const Card = () => {
+const Card = (props) => {
     return <div className="card">
-        <img src="/katie-zaferes.png"/>
+        <img src={props.url}/>
         <div className="stats--group">
-            <img style={{background: "green", width: "14px", height: "14px"}} src="/star.png"/>
-            <span className="rating">5.0</span> 
-            <span className="views">(6)·</span>
-            <span className="views">USA</span>
+            <img style={{background: "green", width: "14px", height: "14px"}} src={props.starurl}/>
+            <span className="rating">{props.rating}</span> 
+            <span className="views">({props.views})·</span>
+            <span className="views">{props.country}</span>
         </div>
-        <p>Life lessons with Katie Zaferes</p>
-        <p><span className="bold">From $136</span> / person</p>
+        <p>{props.title}</p>
+        <p><span className="bold">From ${props.price}</span> / person</p>
     </div>
 }
 
