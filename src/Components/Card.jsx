@@ -1,5 +1,6 @@
 const Card = (props) => {
     return <div className="card">
+        <div className="card--badge">SOLD OUT</div>
         <img src={props.url}/>
         <div className="stats--group">
             <img style={{background: "green", width: "14px", height: "14px"}} src={props.starurl}/>
