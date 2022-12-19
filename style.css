@@ -1,6 +1,6 @@
 :root{
-  /* display: flex; */
-  background-color: rgb(226, 131, 43);
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgb(226, 131, 43); */
 }
 
 /* #root{
@@ -9,12 +9,11 @@
 
 body{
   display: flex;
-  font-family: 'Poppins', sans-serif;
 
   justify-content: center;
   align-items: center;
   /* margin: 0; */
-  background-color: crimson;
+  /* background-color: crimson; */
   min-height: 100vh;
 }
 
@@ -22,7 +21,7 @@ body{
   width: 550px;
   /* margin: 0 auto; */
   padding: 15px; 
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .bold{
@@ -33,7 +32,7 @@ nav {
   /* width: 550px;
 height: 70px; */
 
-  background: aquamarine;
+  /* background: aquamarine; */
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 
 }
@@ -47,34 +46,30 @@ nav>img{
 .hero--{
   display: grid;
   padding: 20px;
-  background: blueviolet;
+  /* background: blueviolet; */
 }
 
 .hero-->img{
   width: 395.91px;
 height: 232px;
   justify-self: center;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
 .hero-->h1{
 
-font-family: 'Poppins';
-font-style: normal;
 font-weight: 600;
 font-size: 36px;
 
-background: burlywood;
+/* background: burlywood; */
 }
 
 .hero-->p{
   width: 320px;
 height: 56px;
-  font-family: 'Poppins';
-/* font-style: normal; */
 font-weight: 600;
 font-size: 16px;
-  background-color:brown ;
+  /* background-color:brown ; */
 }
 
 .card {
@@ -83,7 +78,7 @@ font-size: 16px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
   font-size: 12px;
 }
 
@@ -96,9 +91,9 @@ height: 235px;
 .stats--group{
   display: flex;
   align-items: center;
-  font-family: 'Poppins';
+  gap: 3px;
   
-  background-color: gold;
+  /* background-color: gold; */
 }
 
 .rating{
@@ -117,7 +112,7 @@ height: 235px;
   gap: 20px;
 
 
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 .card--badge{
